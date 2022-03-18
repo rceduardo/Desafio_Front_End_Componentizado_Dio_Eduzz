@@ -37,9 +37,12 @@ html {
  */
 
 body {
+  color: #f0f6fc;
+  background-color: #0d1117;
   margin: 0;
-  font-family: roboto,sans-serif;
+  font-family: -apple-system,Helvetica,sans-serif;
 }
+
 
 /**
  * Render the main element consistently in IE.
