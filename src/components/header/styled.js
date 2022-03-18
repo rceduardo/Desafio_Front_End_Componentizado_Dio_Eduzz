@@ -39,23 +39,4 @@ export const Wrapper = styled.div`
     }
 
   }
-
-  button {
-    border: 1px solid rgba(240,246,252,0.1);
-    background-color: #21262d;
-    height: 32px;
-    padding: 0 16px;
-    margin: 0 16px;
-    border-radius: 8px;
-
-    &:hover {
-      background-color: #30363d;
-      box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
-    }
-
-    span {
-      font-weight: bold;
-      color: #f0f6fc;
-    }
-  }
 `;

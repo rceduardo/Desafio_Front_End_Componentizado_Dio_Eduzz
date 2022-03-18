@@ -8,29 +8,26 @@ export const WrapperTabs = styled(Tabs)`
 `;
 
 export const WrapperTabList = styled(TabList)`
-  list-style-type: none;
-  padding: 4px;
+  /* padding: 4px; */
   display: flex;
-  margin: 0;
+  margin-right: 20px;
+  border-bottom: 1px solid #30363d;
 `;
 WrapperTabList.tabsRole = "TabList";
 
 export const WrapperTab = styled(Tab)`
-  border-radius: 16px;
-  border: 1px solid #ccc;
-  padding: 16px;
+  padding: 8px 16px;
   user-select: none;
   cursor: pointer;
   z-index: 99999;
   background-color: "#fff";
-  margin: 8px;
 
-  &:focus {
-    outline: none;
+  &:hover {
+    border-bottom: 2px solid #30363d;
   }
 
   &.is-selected {
-    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #F78166;
   }
 `;
 WrapperTab.tabsRole = "Tab";
